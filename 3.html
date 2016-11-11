@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<title>Title of the document</title>
+</head>
+
+<body>
+<form action="" method="post" enctype="multipart/form-data">
+<fieldset>
+	<legend>Інформація про об’єкт</legend>
+	Заголовок <br>
+	<input type="text" name="Заголовок"  placeholder="Введіть назву об’єкта" ><br>
+
+	Фото об’єкта <br>
+<input type="file" name=""><br>
+
+	Ціна за кв. метр <br>
+<input type="number" name="Ціна за метр" max="100000" min="-100000" placeholder="Введіть ціну" size="150"> <br>
+
+	Клас об’єкта <br>
+<input type="text" name="Клас об’єкта"  placeholder="Введіть клас об’єкта" ><br>
+
+	Статус <br>
+<select name="Статус">
+	<option value="Проект">Проект</option>
+	<option value="Будується">Будується</option>
+	<option value="Зданий">Зданий</option>
+	<option value="Скандальний">Скандальний</option>
+</select> <br>
+
+	Рейтинг <br>
+	<input type="checkbox" name="Рейтинг">
+
+</fieldset>
+	
+	<fieldset>
+	<legend>Адреса</legend>	
+	Місто <input type="text" name="місто" placeholder="Введіть назву міста"><br>
+	Мікрорайон <input type="text" name="мікрорайон" placeholder="Введіть назву мікрорайона"><br>
+	Вулиця <input type="text" name="вулиця" placeholder="Enter street name"><br>
+
+
+	</fieldset>
+
+	<fieldset>
+		<legend>Контент</legend>
+		<textarea rows="10" cols="30"></textarea>
+
+	</fieldset>
+<input type="submit" name="Зберегти" value="Зберегти">
+<input type="reset" name="Скасувати" value="Скасувати">
+</form>
+
+</body>
+</html>
