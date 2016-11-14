@@ -1,0 +1,112 @@
+body {
+	background-image: url(seigaiha.png);
+	background-repeat: repeat;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: sans-serif;
+	color: #333;
+}
+
+#content {
+	background-image:  url(BA_new_icon.png);
+	background-position: top right;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.dodatok {
+	color: #ccc;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	font-family: sans-serif;
+	padding: -15px;
+}
+
+.text1 {
+	color: #888;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.spysok1 {
+	list-style: none;
+}
+.section {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-variant: small-caps;	
+}
+.section:hover {
+	color: #333;
+	background-color:  #eee;
+	background-image: url(short_arrow_right-512.png);
+	background-repeat: no-repeat; 
+}
+
+
+.posylannja {
+	text-decoration: none;
+}
+.posylannja:active {
+	text-decoration: overline;
+}
+
+
+.posylannja:visited {
+	color: #a9a;
+}
+.posylannja:visited:hover, 
+.posylannja:active:hover,
+.posylannja:hover
+{
+	color: black;
+}
+
+.table1 {
+	font-size: 18px;
+	font-family: Verdana;
+
+}
+
+.zagolovok1 {
+	color: white;
+	background-color: #666;
+}
+
+.last_row {
+	background-color:  #a83;
+	color: white;
+}
+
+.colirrjadka:hover {
+	background-color: #ccc;
+}
+
+.zagolsekcij {
+	font-style: italic;
+	text-align: justify;
+	font-size: 35px;
+}
+
+.textosnovnuj {
+	font-size: 18px;
+	color:  #222;
+	font-weight: bold;
+	text-align: justify;
+	text-indent: 40px;
+}
+.textosnovnuj:first-line {
+	
+	font-size: 27px;
+	color: #a83;
+}
+
+.textosnovnuj:first-letter {
+	color: #ea3;
+	font-size: 36px;
+}
