@@ -1,0 +1,69 @@
+.row:hover {
+	background-color: yellow;
+}
+
+.row:hover .rowpink {
+	background-color: pink;
+}
+
+.row td:first-letter {
+	color: violet;
+}
+
+.firstrow {
+	background-color: red;
+}
+
+.list {
+	list-style-type: none;
+	color: blue;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.link:visited {
+	color: blue;
+}
+
+.link:hover {
+	color: grey;
+}
+
+.listimg {
+	list-style-type: none;
+}
+
+.img {
+	width: 100px;
+}
+
+.img:hover {
+	width: 200px;
+}
+
+.paragraf2 {
+	font-weight: bold;
+}
+
+.text3 {
+	font-size: 12px;
+	background-color: blue;
+	color: white;
+}
+
+.text4:first-letter {
+	font-style: italic;
+	color: orange;
+	font-size: 14px;
+
+}
+
+.text4:first-line {
+	font-style: italic;
+	color: blue;
+	font-size: 14px;
+	line-height: 50px;
+
+}
