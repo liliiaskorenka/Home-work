@@ -1,0 +1,126 @@
+.block {
+	max-width: 100%;
+	margin: 0px;
+
+}
+
+.logo {
+	background-color: blue;
+	clear: left;
+	height: 150px;
+}
+
+.zmist {
+	float: left;
+	width: 250px;
+	margin: 0px;
+	padding: 10px;
+}
+
+.content {
+	overflow: auto;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+.footer {
+	background-color: red;
+	clear: left;
+	height: 150px;
+}
+
+.text {
+	text-align: justify;
+
+}
+
+
+.img {
+	float: right;
+	padding-left: 10px;
+}
+
+.img2{
+	float: left;
+	padding-right: 60px;
+	left: 50px;
+	position: relative;
+}
+
+
+
+
+.imgtext {
+	overflow: auto;
+}
+
+.list {
+	list-style: none;
+}
+
+.list1 {
+	text-decoration: none;
+	color: orange;
+	font-size: 35px;
+}
+.list1:visited {
+	color: pink;
+}
+
+.list1:hover {
+	color: green;
+}
+
+.footertext {
+	text-align: center;
+	color: white;
+	font-size: 45px;
+	padding-top: 30px;
+	
+
+}
+
+
+.footerimg {
+	height: 100px;
+	position: absolute;
+	float: left;
+	left: 400px;
+
+	
+	}
+
+
+
+	
+
+
+.logoname {
+	text-align: center;
+	color: white;
+	padding-top: 5px;
+	font-size: 50px;
+}
+
+
+.menu1 {
+	list-style: none;
+	text-align: center;
+	
+}
+
+.menu {
+		display: inline-block;
+
+}
+
+.menulink {
+
+	text-decoration: none;
+	font-size: 26px;
+	color: white;
+	padding: 8px;
+	text-align: center;
+	background-color: grey;
+
+}
