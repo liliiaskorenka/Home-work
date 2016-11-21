@@ -1,0 +1,216 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+}
+
+.wrapper {
+	min-height: 100%;
+	background: blue;
+}
+
+.wrapper:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.header {
+	height: 150px;
+	background: green;
+}
+
+.zmist {
+	background: red;
+	float: left;
+	width: 150px;
+}
+
+.content {
+	background: grey;
+	padding-left: 10px;
+	margin-left: 150px;
+	padding-bottom: 300px;
+	position: relative;
+
+}
+
+.footer {
+	height: 100px;
+	margin-top: -100px;
+	background: pink;
+	clear: both;
+}
+
+
+
+
+
+.slon {
+	position: relative;
+	left: 500px;
+	display: inline;
+}
+
+.body, .skirt, .legleft, .legright, .ear {
+	position: absolute;
+}
+
+.skirt {
+	top: 221px;
+	left: 48px;
+	z-index: 1;
+}
+
+.skirtimg {
+	position: relative;
+	animation: skirtimg 4s infinite;
+}
+
+@keyframes skirtimg {
+	0% {transform: rotate(-1deg);}
+	25% {transform: rotate(3deg);}
+	50% {transform: rotate(5deg);}
+	75% {transform: rotate(3deg);}
+	100% {transform: rotate(-1deg);}
+}
+
+.ear {
+	top: 64px;
+	left: 147px;
+	
+}
+
+.earimg {
+	animation: ear 4s infinite;
+	height: 98px;
+}
+
+@keyframes ear {
+	0% {width: 45px;}
+	25% {width: 50px;}
+	50% {width: 54px}
+	75% {width: 50px;}
+	100% {width: 45px}
+}
+
+.legleft {
+	top: 290px;
+	left: 55px;
+}
+
+.legleftimg {
+	position: relative;
+	animation: legleftimg 4s infinite;
+}
+
+@keyframes legleftimg {
+	0% {top: 1px; transform: rotate(-1deg);}
+	25% {top: -2px; transform: rotate(3deg);}
+	50% {top: -5px; transform: rotate(5deg);}
+	75% {top: -2px; transform: rotate(3deg);}
+	100% {top: 1px; transform: rotate(-1deg);}
+
+}
+
+.legright {
+	top: 295px;
+	left: 130px;
+}
+
+.legrightimg {
+	position: relative;
+	animation: legrightimg 4s infinite;
+}
+
+.slonhe {
+	position: absolute;
+	top: 80px;
+	left: 30px;
+	display: inline;
+}
+
+.body1, .body2, .body3, .body4, .body5, .body6 {
+	position: absolute;
+}
+
+.body4 {
+	top: 50px;
+	left: -30px;
+}
+
+.body6 {
+	top: 48px;
+	left: 64px;
+}
+
+.body5 {
+	top: 49px;
+	left: 131px;
+}
+
+.bodyf {
+	width: 85px;
+	height: 111px;
+	position: relative;
+	animation: bodyf 4s infinite;
+}
+@keyframes bodyf {
+	0% {top: -4px; height: 115px;}
+	25% {top: -2px; height: 113px;}
+	50% {top: 0px; height: 111px;}
+	75% {top: -2px; height: 113px;}
+	100% {top: -4px; height: 115px;}
+
+}
+
+.bodyc {
+	position: relative;
+	visibility: hidden;
+	animation: bodyc 4s infinite;
+}
+
+@keyframes bodyc {
+	/*0% {visibility: visible;}
+	25% {visibility: hidden;}
+	50% {visibility: hidden;}
+	75% {visibility: visible;}
+	100% {visibility: visible;}*/
+	0% {visibility: visible;}
+	50% {visibility: hidden;}
+	100% {visibility: hidden;}
+}
+
+.bodya {
+	position: relative;
+	visibility: hidden;
+	animation: bodya 4s infinite;
+}
+
+@keyframes bodya {
+	/*0% {visibility: hidden;}
+	25% {visibility: visible;}
+	50% {visibility: hidden;}
+	75% {visibility: hidden;}
+	100% {visibility: visible;}*/
+	0% {visibility: hidden;}
+	50% {visibility: visible;}
+	100% {visibility: hidden;}
+}
+
+.bodyb {
+	position: relative;
+	visibility: hidden;
+	animation: bodyb 4s infinite;
+}
+
+@keyframes bodyb {
+	/*0% {visibility: hidden;}
+	25% {visibility: hidden;}
+	50% {visibility: visible;}
+	75% {visibility: hidden;}
+	100% {visibility: hidden;}*/
+	0% {visibility: hidden;}
+	50% {visibility: hidden;}
+	100% {visibility: visible;}
+}
+
